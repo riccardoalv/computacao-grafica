@@ -1,2 +1,48 @@
 .ccls-cache
 *.elf
+# Ignore build directory
+/build/
+
+/build/*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled object files
+*.o
+
+# Ignore compiled binary files
+*.out
+*.exe
+
+# Ignore log files
+*.log
+
+# Ignore CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+# Ignore generated documentation
+/doc/
+/docs/
+
+# Ignore backup files
+*~
+*.bak
+
+# Ignore generated assets
+/assets/textures/*
+/assets/models/*
+/assets/sounds/*
+
+# Ignore any other binaries
+*.bin
+*.elf
+
+# Ignore IDE specific files
+.vscode/
+.idea/
